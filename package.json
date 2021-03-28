@@ -1,7 +1,7 @@
 {
-    "name": "coolnodeapp",
+    "name": "aiasoft",
     "version": "1.0.0",
-    "description": "node app ",
+    "description": "AiaSoft ",
     "main": "app.js",
     "start": "node app.js",
     "scripts": {
@@ -9,12 +9,9 @@
     },
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "https://github.com/xajiraqab/aiasoft-front-with-seo.git"
     },
-    "author": "",
+    "author": "jax",
     "license": "ISC",
-    "bugs": {
-        "url": ""
-    },
     "homepage": ""
 }

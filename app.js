@@ -28,7 +28,6 @@ const sendResponse = (res, seo = null) => {
             description = seo.description
             og.title = seo.og.title
             og.description = seo.og.description
-        //    console.log(seo)
         }
 
         res.send(data.replace('%TITLE', title).replace('%DESCRIPTION', description).replace('%OG:TITLE', og.title).replace('%OG:DESCRIPTION', og.description))
@@ -47,6 +46,7 @@ async function getSEO_fullProblem(res, url) {
         }
 
         let data = response.data
+        
         sendResponse(res, {
             title: data.id + '. ' + data.title,
             description: data.statement,
@@ -63,12 +63,8 @@ async function getSEO_fullProblem(res, url) {
     }
 }
 
-
-
 app.use(express.static('public'))
-
 app.use((req, res) => {
-
 
     let url = req.url
 
@@ -83,9 +79,4 @@ app.use((req, res) => {
 
 })
 
-
-
-
-
-
-app.listen(4000)
+app.listen(3000)
