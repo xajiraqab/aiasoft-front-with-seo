@@ -1,17 +1,26 @@
 {
-    "name": "aiasoft",
-    "version": "1.0.0",
-    "description": "AiaSoft ",
-    "main": "app.js",
-    "start": "node app.js",
-    "scripts": {
-        "start": "node app.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/xajiraqab/aiasoft-front-with-seo.git"
-    },
-    "author": "jax",
-    "license": "ISC",
-    "homepage": ""
+  "name": "aiasoft",
+  "version": "1.0.0",
+  "description": "AiaSoft ",
+  "main": "app.js",
+  "start": "node app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xajiraqab/aiasoft-front-with-seo.git"
+  },
+  "author": "jax",
+  "license": "ISC",
+  "homepage": "https://github.com/xajiraqab/aiasoft-front-with-seo#readme",
+  "bugs": {
+    "url": "https://github.com/xajiraqab/aiasoft-front-with-seo/issues"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "url-pattern": "^1.0.3"
+  },
+  "devDependencies": {}
 }
